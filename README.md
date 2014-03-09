@@ -31,7 +31,7 @@ Vim colorscheme based on flatland with Airline integration. Based on the excelle
 
 **Application Icon**
 
-<img src="./images/ApplicationIconScreenshot.png" />
+<img src="./images/ApplicationIconScreenshot.png" width=256 height=255/>
 
 **Airline**
 
