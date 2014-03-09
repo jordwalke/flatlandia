@@ -26,6 +26,9 @@ Vim colorscheme based on flatland with Airline integration. Based on the excelle
         NeoBundle 'jordwalke/flatlandia'
 
 
+- To install the application icon, open the `.icns` file in Mac Preview, click on the image and select all (`CMD+a`). Find MacVim in `/Applications`, click once on it and press `CMD+i`. Click on the little icon in that info window, then hit `CMD+v`. Restart MacVim.
+
+
 **Application Icon**
 
 <img src="./images/ApplicationIconScreenshot.png" />
