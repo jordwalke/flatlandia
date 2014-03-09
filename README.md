@@ -4,6 +4,9 @@ flatlandia
 Vim colorscheme based on flatland with Airline integration. Based on the excellent https://github.com/thinkpixellab/flatland
 
 
+<img src="./images/flatlandia_airline.png" />
+
+
 - Flatlandia is even flatter than flatland.
 - Flatlandia also includes a matching `vim-airline` theme.
 - JSDoc comment highlighting.
