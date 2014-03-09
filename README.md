@@ -23,6 +23,16 @@ Vim colorscheme based on flatland with Airline integration. Based on the excelle
         NeoBundle 'jordwalke/flatlandia'
 
 
+**Airline**
+
+<img src="./images/flatlandia_airline.png" />
+
+**Completion**
+<img src="./images/flatlandia_completion.png" />
+
+**Nerd Side Bar**
+<img src="./images/flatlandia_nerd.png" />
+
 **Support**
 
 
