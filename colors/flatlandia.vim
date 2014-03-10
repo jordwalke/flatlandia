@@ -156,7 +156,7 @@ hi htmlendtag guifg=#b7d877 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=N
 
 
 " NerdTree
-hi Directory guifg=#898d8a guibg=#26292c guisp=#2d3033 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
+hi Directory guifg=#898d8a guibg=#26292c guisp=#2d3033 gui=NONE ctermfg=255 ctermbg=236 cterm=NONE
 hi! link VisualNOS	Visual
 hi! link FoldColumn	Folded
 
