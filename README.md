@@ -1,7 +1,7 @@
 flatlandia
 ==========
 
-Vim colorscheme based on flatland with Airline integration. Based on the excellent https://github.com/thinkpixellab/flatland
+Vim colorscheme based on flatland with Airline integration. Intended for use in MacVim. Based on the excellent https://github.com/thinkpixellab/flatland
 
 
 <img src="./images/flatlandia_airline.png" />
