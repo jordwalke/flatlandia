@@ -17,14 +17,15 @@ Vim colorscheme based on flatland with Airline integration. Intended for use in 
 - If you want airline support, ensure that that `airline` is installed, then install `flatlandia` (this plugin) using `Vundle` or `NeoBundle`.
 
 
-        " Using Vundle
-        Bundle 'bling/vim-airline'
-        Bundle 'jordwalke/flatlandia'
+```vim
+" Using Vundle
+Bundle 'bling/vim-airline'
+Bundle 'jordwalke/flatlandia'
 
-        " Or if using NeoBundle(recommended)
-        NeoBundle 'bling/vim-airline'
-        NeoBundle 'jordwalke/flatlandia'
-
+" Or if using NeoBundle(recommended)
+NeoBundle 'bling/vim-airline'
+NeoBundle 'jordwalke/flatlandia'
+```
 
 - To install the application icon, open the `.icns` file in Mac Preview, click on the image and select all (`CMD+a`). Find MacVim in `/Applications`, click once on it and press `CMD+i`. Click on the little icon in that info window, then hit `CMD+v`. Restart MacVim.
 
