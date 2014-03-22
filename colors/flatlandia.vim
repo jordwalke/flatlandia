@@ -60,7 +60,6 @@ hi Boolean guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE
 hi Operator guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi CursorLine guifg=NONE guibg=#2d3033 guisp=#36393c gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
 "hi Union -- no settings --
-"hi Question -- no settings --
 hi WarningMsg guifg=#f8f8f8 guibg=#aa2915 guisp=#aa2915 gui=NONE ctermfg=15 ctermbg=124 cterm=NONE
 "hi VisualNOS -- no settings --
 hi DiffText guifg=NONE guibg=#2E4052 guisp=#2E4052 gui=bold ctermfg=15 ctermbg=24 cterm=bold
@@ -68,6 +67,8 @@ hi DiffChange guifg=NONE guibg=#273645 guisp=#273645 gui=NONE ctermfg=15 ctermbg
 hi DiffDelete guifg=#8F433D guibg=#8F433D guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE
 hi DiffAdd guifg=#f8f8f8 guibg=#487a1a guisp=#487a1a gui=bold ctermfg=15 ctermbg=2 cterm=bold
 "hi ModeMsg -- no settings --
+hi ModeMsg guifg=#a0a0a0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=255 ctermbg=236 cterm=NONE
+hi Question guifg=#a0a0a0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=255 ctermbg=236 cterm=NONE
 hi CursorColumn guifg=NONE guibg=#3b3e40 guisp=#3b3e40 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
 hi Define guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi Function guifg=#72aaca guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
