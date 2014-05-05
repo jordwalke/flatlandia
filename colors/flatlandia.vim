@@ -107,6 +107,8 @@ hi jsDocSeeTag guifg=#80868b guibg=NONE guisp=NONE gui=NONE ctermfg=228 ctermbg=
 hi jsDocTypeNoParam guifg=#80868b guibg=NONE guisp=NONE gui=NONE ctermfg=228 ctermbg=NONE cterm=NONE
 hi jsDocParam guifg=#90969b guibg=NONE guisp=NONE gui=NONE ctermfg=228 ctermbg=NONE cterm=NONE
 
+hi ocamlType guifg=#f6f080 guibg=NONE guisp=NONE gui=NONE ctermfg=228 ctermbg=NONE cterm=NONE
+
 hi cssfunctionname guifg=#ffb454 guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi erubycomment guifg=#798188 guibg=NONE guisp=NONE gui=NONE ctermfg=66 ctermbg=NONE cterm=NONE
 hi rubyclass guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
