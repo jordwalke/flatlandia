@@ -15,7 +15,7 @@ hi SignColumn guibg=NONE ctermbg=NONE
 hi SpecialComment guifg=#f8f8f8 guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#72aaca guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
 hi Title guifg=#f8f8f8 guibg=NONE guisp=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
-hi Folded guifg=#798188 guibg=#26292c guisp=#26292c gui=NONE ctermfg=66 ctermbg=236 cterm=NONE
+hi Folded guifg=#798188 guibg=#26292c guisp=#26292c gui=NONE ctermfg=66 ctermbg=235 cterm=NONE
 hi PreCondit guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi Include guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi Float guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE cterm=NONE
@@ -44,7 +44,7 @@ hi Conditional guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=
 hi StorageClass guifg=#f6f080 guibg=NONE guisp=NONE gui=NONE ctermfg=228 ctermbg=NONE cterm=NONE
 hi Todo guifg=#798188 guibg=NONE guisp=NONE gui=bold ctermfg=66 ctermbg=NONE cterm=bold
 hi Special guifg=#f8f8f8 guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
-hi Normal guifg=#e0e0e0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=255 ctermbg=236 cterm=NONE
+hi Normal guifg=#e0e0e0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
 hi Label guifg=#f6f6f6 guibg=NONE guisp=NONE gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE
 "hi CTagsImport -- no settings --
 hi Search guifg=#16191c guibg=#fffebe guisp=#b4c2cf gui=NONE ctermfg=236 ctermbg=152 cterm=NONE
@@ -67,8 +67,8 @@ hi DiffChange guifg=NONE guibg=#273645 guisp=#273645 gui=NONE ctermfg=15 ctermbg
 hi DiffDelete guifg=#8F433D guibg=#8F433D guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE
 hi DiffAdd guifg=#f8f8f8 guibg=#487a1a guisp=#487a1a gui=bold ctermfg=15 ctermbg=2 cterm=bold
 "hi ModeMsg -- no settings --
-hi ModeMsg guifg=#a0a0a0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=255 ctermbg=236 cterm=NONE
-hi Question guifg=#a0a0a0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=255 ctermbg=236 cterm=NONE
+hi ModeMsg guifg=#a0a0a0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
+hi Question guifg=#a0a0a0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
 hi CursorColumn guifg=NONE guibg=#3b3e40 guisp=#3b3e40 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
 hi Define guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi Function guifg=#72aaca guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
@@ -159,7 +159,7 @@ hi htmlendtag guifg=#b7d877 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=N
 
 
 " NerdTree
-hi Directory guifg=#898d8a guibg=#26292c guisp=#2d3033 gui=NONE ctermfg=255 ctermbg=236 cterm=NONE
+hi Directory guifg=#898d8a guibg=#26292c guisp=#2d3033 gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
 hi! link VisualNOS	Visual
 hi! link FoldColumn	Folded
 
