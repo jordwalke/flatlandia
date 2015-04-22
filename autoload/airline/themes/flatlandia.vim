@@ -2,37 +2,37 @@
 
 " Normal mode
 "          [ guifg, guibg, ctermfg, ctermbg, opts ]
-let s:N1 = [ '#f0f0f0' , '#505357' , 232 , 192 ] " mode
-let s:N2 = [ '#d0d0d0' , '#36393c' , 192 , 236 ] " info
-let s:N3 = [ '#86898c' , '#2c2f33' , 192 , 234 ] " statusline
+let s:N1 = [ '#f0f0f0' , '#505357' , 255 , 240 ] " mode
+let s:N2 = [ '#d0d0d0' , '#36393c' , 252 , 236 ] " info
+let s:N3 = [ '#86898c' , '#2c2f33' , 244 , 234 ] " statusline
 let s:N4 = [ '#f6f080' , 113 ]                   " mode modified
 
 " Insert mode
 "          [ guifg, guibg, ctermfg, ctermbg, opts ]
-" Very bright blue: let s:I1 = [ '#f0f0f0' , '#1093f3' , 232 , 192 ] " mode
-let s:I1 = [ '#f0f0f0' , '#3498DB' , 232 , 192 ] " mode
-let s:I2 = [ '#d0d0d0' , '#36393c' , 192 , 236 ] " info
-let s:I3 = [ '#86898c' , '#2c2f33' , 192 , 234 ] " statusline
+" Very bright blue
+let s:I1 = [ '#f0f0f0' , '#3498DB' , 255 , 39 ]  " mode
+let s:I2 = [ '#d0d0d0' , '#36393c' , 252 , 236 ] " info
+let s:I3 = [ '#86898c' , '#2c2f33' , 244 , 234 ] " statusline
 let s:I4 = [ '#f6f080' , 113 ]                   " mode modified
 
 " Visual mode
 "          [ guifg, guibg, ctermfg, ctermbg, opts ]
-let s:V1 = [ '#ffffff' , '#27AE60' , 232 , 192 ] " mode
-let s:V2 = [ '#d0d0d0' , '#36393c' , 192 , 236 ] " info
-let s:V3 = [ '#86898c' , '#2c2f33' , 192 , 234 ] " statusline
-let s:V4 = [ '#CAE682' , 113 ]                   " mode modified
+let s:V1 = [ '#ffffff' , '#27AE60' , 255 , 35 ]  " mode
+let s:V2 = [ '#d0d0d0' , '#36393c' , 252 , 236 ] " info
+let s:V3 = [ '#86898c' , '#2c2f33' , 244 , 234 ] " statusline
+let s:V4 = [ '#CAE682' , 156 ]                   " mode modified
 
 " Replace mode
-let s:R1 = [ '#f0f0f0' , '#E74C3C' , 232 , 192 ] " mode
-let s:R2 = [ '#d0d0d0' , '#36393c' , 192 , 236 ] " info
-let s:R3 = [ '#86898c' , '#2c2f33' , 192 , 234 ] " statusline
-let s:R4 = [ '#fa994b' , 113 ]                   " mode modified
+let s:R1 = [ '#f0f0f0' , '#E74C3C' , 255 , 167 ] " mode
+let s:R2 = [ '#d0d0d0' , '#36393c' , 252 , 236 ] " info
+let s:R3 = [ '#86898c' , '#2c2f33' , 244 , 234 ] " statusline
+let s:R4 = [ '#fa994b' , 215 ]                   " mode modified
 
 " Paste mode
 let s:PA = [ '#94E42C' , 47 ]
 
 " Info modified
-let s:IM = [ '#f6d080' , 238 ]
+let s:IM = [ '#f6d080' , 223 ]
 
 " Inactive mode
 let s:IA = [ '#86898c' , s:N3[1] , 243 , s:N3[3] , '' ]
@@ -86,7 +86,7 @@ if !get(g:, 'loaded_ctrlp', 0)
   finish
 endif
 let g:airline#themes#flatlandia#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
-      \ [ '#86898c' , '#2c2f33' , 253 , 234 , ''     ] ,
-      \ [ '#86898c' , '#36393c' , 253 , 238 , ''     ] ,
-      \ [ '#2c2f33' , '#b8d977' , 232 , 253 , 'bold' ] )
+      \ [ '#86898c' , '#2c2f33' , 243 , 234 , ''     ] ,
+      \ [ '#86898c' , '#36393c' , 243 , 236 , ''     ] ,
+      \ [ '#2c2f33' , '#b8d977' , 232 , 156 , 'bold' ] )
 
