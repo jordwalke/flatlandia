@@ -11,7 +11,7 @@ set t_Co=256
 let g:colors_name = "flatlandia"
 
 hi WildMenu guifg=#1c1c1c ctermfg=233 guibg=#ffff99 ctermbg=228 gui=none cterm=none
-"hi SignColumn -- no settings --
+hi SignColumn guibg=NONE ctermbg=NONE
 hi SpecialComment guifg=#f8f8f8 guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#72aaca guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
 hi Title guifg=#f8f8f8 guibg=NONE guisp=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
