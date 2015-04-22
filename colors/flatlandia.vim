@@ -22,7 +22,7 @@ hi Float guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE c
 hi StatusLineNC guifg=#b8b8b8 guibg=#292c2f guisp=#636567 gui=NONE ctermfg=15 ctermbg=241 cterm=NONE
 hi StatusLine guifg=#f8f8f8 guibg=#292c2f guisp=#292c2f gui=bold ctermfg=15 ctermbg=241 cterm=bold
 "hi CTagsMember -- no settings --
-hi NonText guifg=#2d3033 guibg=#2d3033 guisp=#2d3033 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
+hi NonText guifg=#e0e0e0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
 hi VertSplit guifg=#2d3033 guibg=#2d3033 guisp=#2d3033 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
 "hi TabLineSel -- no settings --
 hi LineNr guifg=#515253 guibg=#2c2f31 guisp=#2c2f31 gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
